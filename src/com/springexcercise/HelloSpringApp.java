@@ -1,6 +1,8 @@
-package springexcercise;
+package com.springexcercise;
 
 import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+import java.util.Random;
 
 public class HelloSpringApp {
 
@@ -11,5 +13,6 @@ public class HelloSpringApp {
         System.out.println(theCoach.getDailyWorkout());
         System.out.println(theCoach.getDailyFortune());
         context.close();
+
     }
 }

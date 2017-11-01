@@ -1,4 +1,4 @@
-package springexcercise;
+package com.springexcercise;
 
 public class FootballCoach implements Coach {
     @Override
