@@ -8,15 +8,21 @@
     http://www.springframework.org/schema/context/spring-context.xsd">
 
 	
-    <bean id="myFortune"
-          class="com.HappyFortuneService">
+    <bean id="myFortuneService"
+          class="springexcercise.HappyFortuneService">
     </bean>
 
     <bean id="myCoach"
-       class="com.BaseballCoach">
-       <constructor-arg ref="myFortune" />
+       class="springexcercise.TrackCoach">
+       <constructor-arg ref="myFortuneService" />
     </bean>
 
+    <bean id="myCricketCoach"
+          class="springexcercise.CricketCoach">
+        <property name="fortuneService" ref="myFortuneService" />
+        <property name="emailAddress" value="thebestcoach@coach.com"/>
+        <property name="team" value="Sunrisers Team"/>
+    </bean>
 
 </beans>
 

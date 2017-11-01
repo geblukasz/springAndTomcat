@@ -2,14 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="449db3e8-c948-4091-be5f-743f6878b953" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/springexcercise/TrackCoach.java" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/dbproject/com/BaseballCoach.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/dbproject/com/Coach.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/dbproject/com/FootballCoach.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/dbproject/com/FortuneService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/dbproject/com/HappyFortuneService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/dbproject/com/HelloSpringApp.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/dbproject/com/MyApp.class" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/dbproject/com/TrackCoach.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/TrackCoach.java" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/BaseballCoach.java" afterPath="$PROJECT_DIR$/src/springexcercise/BaseballCoach.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/Coach.java" afterPath="$PROJECT_DIR$/src/springexcercise/Coach.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/FootballCoach.java" afterPath="$PROJECT_DIR$/src/springexcercise/FootballCoach.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/FortuneService.java" afterPath="$PROJECT_DIR$/src/springexcercise/FortuneService.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/HappyFortuneService.java" afterPath="$PROJECT_DIR$/src/springexcercise/HappyFortuneService.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/HelloSpringApp.java" afterPath="$PROJECT_DIR$/src/springexcercise/HelloSpringApp.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/MyApp.java" afterPath="$PROJECT_DIR$/src/springexcercise/MyApp.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/dbproject/applicationContext.xml" afterPath="$PROJECT_DIR$/out/production/dbproject/applicationContext.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/applicationContext.xml" afterPath="$PROJECT_DIR$/src/applicationContext.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/BaseballCoach.java" afterPath="$PROJECT_DIR$/src/com/BaseballCoach.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/Coach.java" afterPath="$PROJECT_DIR$/src/com/Coach.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/MyApp.java" afterPath="$PROJECT_DIR$/src/com/MyApp.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/TrackCoach.java" afterPath="$PROJECT_DIR$/src/com/TrackCoach.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,24 +48,24 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file leaf-file-name="BaseballCoach.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/BaseballCoach.java">
+        <entry file="file://$PROJECT_DIR$/src/springexcercise/BaseballCoach.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="42">
-              <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+            <state relative-caret-position="63">
+              <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
               <folding>
-                <element signature="e#164#165#0" expanded="true" />
-                <element signature="e#214#215#0" expanded="true" />
-                <element signature="e#267#268#0" expanded="true" />
-                <element signature="e#329#330#0" expanded="true" />
-                <element signature="e#382#383#0" expanded="true" />
-                <element signature="e#432#433#0" expanded="true" />
+                <element signature="e#176#177#0" expanded="true" />
+                <element signature="e#226#227#0" expanded="true" />
+                <element signature="e#279#280#0" expanded="true" />
+                <element signature="e#341#342#0" expanded="true" />
+                <element signature="e#394#395#0" expanded="true" />
+                <element signature="e#444#445#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="MyApp.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/MyApp.java">
+        <entry file="file://$PROJECT_DIR$/src/springexcercise/MyApp.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="126">
               <caret line="6" column="10" lean-forward="false" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
@@ -63,42 +75,52 @@
         </entry>
       </file>
       <file leaf-file-name="FootballCoach.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/FootballCoach.java">
+        <entry file="file://$PROJECT_DIR$/src/springexcercise/FootballCoach.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
               <caret line="10" column="8" lean-forward="false" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="20" />
               <folding>
-                <element signature="e#110#111#0" expanded="true" />
-                <element signature="e#166#167#0" expanded="true" />
-                <element signature="e#219#220#0" expanded="true" />
-                <element signature="e#246#247#0" expanded="true" />
+                <element signature="e#122#123#0" expanded="true" />
+                <element signature="e#178#179#0" expanded="true" />
+                <element signature="e#231#232#0" expanded="true" />
+                <element signature="e#258#259#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="applicationContext.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="applicationContext.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/applicationContext.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="15" column="31" lean-forward="false" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+            <state relative-caret-position="324">
+              <caret line="23" column="51" lean-forward="false" selection-start-line="23" selection-start-column="51" selection-end-line="23" selection-end-column="51" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SetterDemoApp.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/springexcercise/SetterDemoApp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="294">
+              <caret line="14" column="8" lean-forward="true" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="HelloSpringApp.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/HelloSpringApp.java">
+        <entry file="file://$PROJECT_DIR$/src/springexcercise/HelloSpringApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="8" column="110" lean-forward="false" selection-start-line="8" selection-start-column="110" selection-end-line="8" selection-end-column="110" />
+            <state relative-caret-position="231">
+              <caret line="11" column="53" lean-forward="false" selection-start-line="11" selection-start-column="53" selection-end-line="11" selection-end-column="53" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="FortuneService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/FortuneService.java">
+        <entry file="file://$PROJECT_DIR$/src/springexcercise/FortuneService.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="126">
               <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
@@ -108,39 +130,52 @@
         </entry>
       </file>
       <file leaf-file-name="HappyFortuneService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/HappyFortuneService.java">
+        <entry file="file://$PROJECT_DIR$/src/springexcercise/HappyFortuneService.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="126">
               <caret line="6" column="39" lean-forward="false" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
               <folding>
-                <element signature="e#121#122#0" expanded="true" />
-                <element signature="e#169#170#0" expanded="true" />
+                <element signature="e#133#134#0" expanded="true" />
+                <element signature="e#181#182#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="TrackCoach.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/TrackCoach.java">
+        <entry file="file://$PROJECT_DIR$/src/springexcercise/TrackCoach.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="11" column="8" lean-forward="false" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="20" />
+            <state relative-caret-position="105">
+              <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
               <folding>
-                <element signature="e#108#109#0" expanded="true" />
-                <element signature="e#146#147#0" expanded="true" />
-                <element signature="e#199#200#0" expanded="true" />
-                <element signature="e#226#227#0" expanded="true" />
+                <element signature="e#194#195#0" expanded="true" />
+                <element signature="e#246#247#0" expanded="true" />
+                <element signature="e#299#300#0" expanded="true" />
+                <element signature="e#337#338#0" expanded="true" />
+                <element signature="e#390#391#0" expanded="true" />
+                <element signature="e#457#458#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Coach.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/Coach.java">
+      <file leaf-file-name="CricketCoach.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/springexcercise/CricketCoach.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="231">
+              <caret line="22" column="73" lean-forward="false" selection-start-line="22" selection-start-column="73" selection-end-line="22" selection-end-column="73" />
+              <folding>
+                <element signature="e#210#211#0" expanded="true" />
+                <element signature="e#245#246#0" expanded="true" />
+                <element signature="e#465#466#0" expanded="true" />
+                <element signature="e#492#493#0" expanded="true" />
+                <element signature="e#669#670#0" expanded="true" />
+                <element signature="e#747#748#0" expanded="true" />
+                <element signature="e#1007#1008#0" expanded="true" />
+                <element signature="e#1068#1069#0" expanded="true" />
+                <element signature="e#1121#1122#0" expanded="true" />
+                <element signature="e#1171#1172#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -168,15 +203,18 @@
       <list>
         <option value="$PROJECT_DIR$/src/A.java" />
         <option value="$PROJECT_DIR$/src/com/springdemo/BaseeballCoch.java" />
-        <option value="$PROJECT_DIR$/src/com/HelloSpringApp.java" />
         <option value="$PROJECT_DIR$/src/com/MyApp.java" />
         <option value="$PROJECT_DIR$/src/com/FortuneService.java" />
         <option value="$PROJECT_DIR$/src/com/HappyFortuneService.java" />
         <option value="$PROJECT_DIR$/src/com/Coach.java" />
-        <option value="$PROJECT_DIR$/src/com/TrackCoach.java" />
         <option value="$PROJECT_DIR$/src/com/FootballCoach.java" />
         <option value="$PROJECT_DIR$/src/com/BaseballCoach.java" />
+        <option value="$PROJECT_DIR$/src/com/HelloSpringApp.java" />
+        <option value="$PROJECT_DIR$/src/com/TrackCoach.java" />
+        <option value="$PROJECT_DIR$/src/com/CricketCoach.java" />
+        <option value="$PROJECT_DIR$/src/springexcercise/CricketCoach.java" />
         <option value="$PROJECT_DIR$/src/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/src/springexcercise/SetterDemoApp.java" />
       </list>
     </option>
   </component>
@@ -194,9 +232,10 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="156" />
-    <option name="width" value="976" />
-    <option name="height" value="874" />
+    <option name="x" value="-1432" />
+    <option name="y" value="422" />
+    <option name="width" value="625" />
+    <option name="height" value="559" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -251,7 +290,7 @@
               <item name="dbproject" type="b2602c69:ProjectViewProjectNode" />
               <item name="dbproject" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="springexcercise" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -297,7 +336,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.HelloSpringApp">
+  <component name="RunManager" selected="Application.SetterDemoApp">
     <configuration name="A" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="A" />
@@ -339,6 +378,25 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="com.MyApp" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="dbproject" />
+      <envs />
+    </configuration>
+    <configuration name="SetterDemoApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="springexcercise.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="springexcercise.SetterDemoApp" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -498,17 +556,19 @@
       <properties />
       <listeners />
     </configuration>
-    <list size="4">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Tomcat Server.TomcatServerL" />
       <item index="1" class="java.lang.String" itemvalue="Application.A" />
       <item index="2" class="java.lang.String" itemvalue="Application.MyApp" />
       <item index="3" class="java.lang.String" itemvalue="Application.HelloSpringApp" />
+      <item index="4" class="java.lang.String" itemvalue="Application.SetterDemoApp" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Application.HelloSpringApp" />
-        <item index="1" class="java.lang.String" itemvalue="Application.MyApp" />
-        <item index="2" class="java.lang.String" itemvalue="Application.A" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Application.SetterDemoApp" />
+        <item index="1" class="java.lang.String" itemvalue="Application.HelloSpringApp" />
+        <item index="2" class="java.lang.String" itemvalue="Application.MyApp" />
+        <item index="3" class="java.lang.String" itemvalue="Application.A" />
       </list>
     </recent_temporary>
   </component>
@@ -527,12 +587,12 @@
       <updated>1509402304877</updated>
       <workItem from="1509402308663" duration="834000" />
       <workItem from="1509403162229" duration="146000" />
-      <workItem from="1509403325747" duration="7280000" />
+      <workItem from="1509403325747" duration="11871000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8260000" />
+    <option name="totallyTimeSpent" value="12851000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -544,28 +604,28 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <frame x="-1448" y="70" width="1456" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32915717" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32915717" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32913166" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32915717" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32915717" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32913166" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32915717" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32915717" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32913166" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32913166" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32913166" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4047619" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13265306" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17872648" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32915717" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24943052" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24929972" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -621,34 +681,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/MyApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="10" lean-forward="false" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/HelloSpringApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="110" lean-forward="false" selection-start-line="8" selection-start-column="110" selection-end-line="8" selection-end-column="110" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/HappyFortuneService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="39" lean-forward="false" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
-          <folding>
-            <element signature="e#121#122#0" expanded="true" />
-            <element signature="e#169#170#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/Coach.java">
+    <entry file="file://$PROJECT_DIR$/src/springexcercise/Coach.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
           <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
@@ -656,33 +689,62 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/TrackCoach.java">
+    <entry file="file://$PROJECT_DIR$/src/springexcercise/MyApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" column="8" lean-forward="false" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="20" />
-          <folding>
-            <element signature="e#108#109#0" expanded="true" />
-            <element signature="e#146#147#0" expanded="true" />
-            <element signature="e#199#200#0" expanded="true" />
-            <element signature="e#226#227#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="126">
+          <caret line="6" column="10" lean-forward="false" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/FootballCoach.java">
+    <entry file="file://$PROJECT_DIR$/src/springexcercise/FootballCoach.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="10" column="8" lean-forward="false" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="20" />
           <folding>
-            <element signature="e#110#111#0" expanded="true" />
-            <element signature="e#166#167#0" expanded="true" />
-            <element signature="e#219#220#0" expanded="true" />
-            <element signature="e#246#247#0" expanded="true" />
+            <element signature="e#122#123#0" expanded="true" />
+            <element signature="e#178#179#0" expanded="true" />
+            <element signature="e#231#232#0" expanded="true" />
+            <element signature="e#258#259#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/FortuneService.java">
+    <entry file="file://$PROJECT_DIR$/src/springexcercise/HappyFortuneService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="39" lean-forward="false" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
+          <folding>
+            <element signature="e#133#134#0" expanded="true" />
+            <element signature="e#181#182#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/springexcercise/TrackCoach.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding>
+            <element signature="e#194#195#0" expanded="true" />
+            <element signature="e#246#247#0" expanded="true" />
+            <element signature="e#299#300#0" expanded="true" />
+            <element signature="e#337#338#0" expanded="true" />
+            <element signature="e#390#391#0" expanded="true" />
+            <element signature="e#457#458#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/springexcercise/HelloSpringApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="53" lean-forward="false" selection-start-line="11" selection-start-column="53" selection-end-line="11" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/springexcercise/FortuneService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
           <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
@@ -690,25 +752,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/BaseballCoach.java">
+    <entry file="file://$PROJECT_DIR$/src/springexcercise/BaseballCoach.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        <state relative-caret-position="63">
+          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding>
-            <element signature="e#164#165#0" expanded="true" />
-            <element signature="e#214#215#0" expanded="true" />
-            <element signature="e#267#268#0" expanded="true" />
-            <element signature="e#329#330#0" expanded="true" />
-            <element signature="e#382#383#0" expanded="true" />
-            <element signature="e#432#433#0" expanded="true" />
+            <element signature="e#176#177#0" expanded="true" />
+            <element signature="e#226#227#0" expanded="true" />
+            <element signature="e#279#280#0" expanded="true" />
+            <element signature="e#341#342#0" expanded="true" />
+            <element signature="e#394#395#0" expanded="true" />
+            <element signature="e#444#445#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/springexcercise/CricketCoach.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="22" column="73" lean-forward="false" selection-start-line="22" selection-start-column="73" selection-end-line="22" selection-end-column="73" />
+          <folding>
+            <element signature="e#210#211#0" expanded="true" />
+            <element signature="e#245#246#0" expanded="true" />
+            <element signature="e#465#466#0" expanded="true" />
+            <element signature="e#492#493#0" expanded="true" />
+            <element signature="e#669#670#0" expanded="true" />
+            <element signature="e#747#748#0" expanded="true" />
+            <element signature="e#1007#1008#0" expanded="true" />
+            <element signature="e#1068#1069#0" expanded="true" />
+            <element signature="e#1121#1122#0" expanded="true" />
+            <element signature="e#1171#1172#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/applicationContext.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="15" column="31" lean-forward="false" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+        <state relative-caret-position="324">
+          <caret line="23" column="51" lean-forward="false" selection-start-line="23" selection-start-column="51" selection-end-line="23" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/springexcercise/SetterDemoApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="14" column="8" lean-forward="true" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
           <folding />
         </state>
       </provider>

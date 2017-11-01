@@ -1,4 +1,4 @@
-package com;
+package springexcercise;
 
 public interface FortuneService {
 
